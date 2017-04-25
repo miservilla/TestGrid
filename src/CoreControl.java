@@ -15,11 +15,10 @@ public class CoreControl {
     public static class Grid extends JPanel {
 
         private List<String> fillCells;
-//        Color cellColor = Color.BLUE;
-private static final Color O = Color.RED;
+        private static final Color O = Color.RED;
         private static final Color X = Color.BLUE;
         private static final Color H = Color.YELLOW;
-        private static final Color U = Color.RED;
+        private static final Color U = Color.BLACK;
         private static final Color G = Color.LIGHT_GRAY;
 
         public Grid() {
